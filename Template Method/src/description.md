@@ -1,3 +1,5 @@
+# Template Method
+
 Template Method is another design pattern. A Template Method is a final method (in this case: transfer) that calls
 an abstract method (in this case: calculateCommission). As you can see, transfer(the template method) is implement in
 the parent class, while calculateCommission is an abstract method that is implemented in the children.

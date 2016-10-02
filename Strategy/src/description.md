@@ -1,3 +1,5 @@
+# Strategy
+
 Strategy is a pattern that that has several classes implement an interface, and the Context class which in this case
 is Account makes use of them to vary its behavior according to the type of account it is (accountType property).
 

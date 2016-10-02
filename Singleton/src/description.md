@@ -1,3 +1,5 @@
+# Singleton
+
 Singleton is a very simple yet very useful pattern. Its intent is to create a unique instance of a Class, meaning that
 there will only be a single instance during the full lifecycle of the program.
 

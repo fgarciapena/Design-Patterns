@@ -1,3 +1,5 @@
+# Factory Method
+
 Factory Method is a Class that has absolutely nothing to do with the classes it generates. Its sole purpose is to
 return instances according to what the other classes desire. Abstract Factory and Factory both have several
 Factory Methods.

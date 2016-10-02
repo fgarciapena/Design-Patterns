@@ -1,3 +1,5 @@
+# Observer
+
 Observer is a pattern that is also known as the Subscribe-Publisher pattern. Classes subscribe to a certain Observable,
 and the Observable notifies these classes (from now on known as Observers) of any events that happen. Auctions are a
 good example, but an RSS feed is one as well. A well-known case is Twitter, where users get updates of the people they

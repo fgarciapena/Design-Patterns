@@ -1,3 +1,5 @@
+# Double Dispatch
+
 Double Dispatch is a design pattern. A design pattern is a generic solution to a recurrent problem.
 It is usually a good practice that promotes class encapsulation. They're effective and reusable.
 

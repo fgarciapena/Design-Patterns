@@ -1,3 +1,5 @@
+# Mediator
+
 This example tries to simulate a typical fund extraction in an automated teller machine (ATM). This example uses the
 State pattern to behave the behavior of the ATM machine according to whether it's full or not.
 
