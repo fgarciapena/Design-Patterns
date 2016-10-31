@@ -4,7 +4,7 @@ Adapter is a not-so-good design pattern which comes as a consequence of the fact
 that's going to happen in the foreseeable future. It adapts an interface in order to work with another interface,
 in the way that an english-spanish dictionary "adapts", or rather translates english to spanish and vice-versa.
 
-Because it's a measure to adapt an interface to use things from another interface, it brings with itself and adapter
+Because it's a measure to adapt an interface to use things from another interface, it brings with itself an adapter
 class that allows the adaptee to work. This adapter class is contained in the other interface, which brings a lot of
 class coupling and de-encapsulation.
 
