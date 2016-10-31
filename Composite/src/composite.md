@@ -1,6 +1,6 @@
 #Composite
 
-** Composite ** is (you guessed it) yet another design pattern which works great for hierarchical structures.
+**Composite** is (you guessed it) yet another design pattern which works great for hierarchical structures.
 Why so? Because it defines a very clear interface which promotes decoupling and encapsulation. Every object knows what to do,
 and the objects that can have other objects inside them are the ones that are "composed" of several more objects. A component can be inside another component.
 Of course you'll want to traverse this as a tree, because the hierarchy that this resembles is a tree.
