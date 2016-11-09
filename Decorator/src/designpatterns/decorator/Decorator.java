@@ -1,32 +1,22 @@
 package designpatterns.decorator;
 
-import java.util.ArrayList;
-import java.util.List;
+public abstract class Decorator implements Component{
+    private Component component;
 
-public abstract class Decorator {
-    private List<Component> components;
-
-    public Decorator() {
-        this.components = new ArrayList<Component>();
+    public Decorator(Component component) {
+        this.component = component;
     }
 
-    public List<Component> getComponents() {
-        return components;
+    public Component getComponent() {
+        return component;
     }
 
-    public void setComponents(List<Component> components) {
-        this.components = components;
+    public void setComponent(Component component) {
+        this.component = component;
     }
 
-    public void addComponent(Component c) {
-        components.add(c);
+    @Override
+    public void operation() {
+        component.operation();
     }
-
-    public void removeComponent(Component c) {
-        components.remove(c);
-    }
-
-    public abstract void doSomething();
-
-    public abstract void doSomethingSingleComponent(Component c);
 }
